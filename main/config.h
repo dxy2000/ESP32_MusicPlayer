@@ -1,0 +1,29 @@
+#pragma once
+
+#include <driver/gpio.h>
+
+// SD Card
+#define SD_PIN_CS GPIO_NUM_9
+#define SD_PIN_MOSI GPIO_NUM_10
+#define SD_PIN_CLK GPIO_NUM_11
+#define SD_PIN_MISO GPIO_NUM_12
+
+// Speaker 
+#define AUDIO_I2S_SPK_GPIO_DOUT GPIO_NUM_7  
+#define AUDIO_I2S_SPK_GPIO_BCLK GPIO_NUM_15  
+#define AUDIO_I2S_SPK_GPIO_WS GPIO_NUM_16    
+
+// Play Button
+#define AUDIO_BUTTON_GPIO_PLAY GPIO_NUM_21 
+
+// Volume Button
+#define AUDIO_BUTTON_GPIO_VOL_UP GPIO_NUM_40
+#define AUDIO_BUTTON_GPIO_VOL_DOWN GPIO_NUM_45
+
+// Change Music Button
+#define AUDIO_BUTTON_GPIO_MUSIC_NEXT GPIO_NUM_39
+#define AUDIO_BUTTON_GPIO_MUSIC_PRE GPIO_NUM_38
+
+// Display
+#define DISPLAY_SDA_PIN GPIO_NUM_41
+#define DISPLAY_SCL_PIN GPIO_NUM_42
